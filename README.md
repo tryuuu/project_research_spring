@@ -15,6 +15,7 @@ noun_dict_sorted.txt・・・makedict.pyにより順番・構造を辞書式に�
 tojson.py・・・noun_dict_sorted.txtからN個分のしりとりのデータセットを取り出して、しりとりのinstruction tuningができるようにしたjsonファイル
 ### LoRA tuning, fine tuningの実行
 loratune.py
+
 finetune.py
 ### zero-shotのChatGPTによるしりとりの実行
 gpt.py
