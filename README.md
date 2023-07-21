@@ -10,6 +10,11 @@ noun.txt・・・Jumandicから名詞のみを取り出して.txtファイルに
 
 makedict.py・・・noun.txtに格納されている名詞から、辞書のように索引(先頭のひらがな)->単語という形で名詞データを再保存するためのコード
 
-noun_dict_sorted.txt・・・makedict.pyにより順番・構造を辞書式に並び替えられた名刺のデータが保存されたもの
+noun_dict_sorted.txt・・・makedict.pyにより順番・構造を辞書式に並び替えられた名詞のデータが保存されたもの
 
 tojson.py・・・noun_dict_sorted.txtからN個分のしりとりのデータセットを取り出して、しりとりのinstruction tuningができるようにしたjsonファイル
+### LoRA tuning, fine tuningの実行
+loratune.py
+finetune.py
+### zero-shotのChatGPTによるしりとりの実行
+gpt.py
