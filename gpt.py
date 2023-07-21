@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "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"
+openai.api_key = "sk-"
 while True:
   user_input = input("あなた: ")
   if user_input == "終了":
